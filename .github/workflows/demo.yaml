@@ -21,7 +21,7 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./Demo-website/Demo-website/ s3://gallarysite --delete
+          aws s3 sync ./Demo-website/ s3://gallarysite --delete
           
         
 
